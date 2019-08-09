@@ -43,22 +43,22 @@ function ageVer() {
             button: "Ok"
         });
     }
-    else if (month < 0) {
-        swal({
-            icon: "error",
-            title: "ERROR",
-            text: "Must be 18+ to access.",
-            button: "Ok"
-        });
-    }
-    else if (day < 0) {
-        swal({
-            icon: "error",
-            title: "ERROR",
-            text: "Must be 18+ to access.",
-            button: "Ok"
-        });
-    }
+    // else if (month < 0) {
+    //     swal({
+    //         icon: "error",
+    //         title: "ERROR",
+    //         text: "Must be 18+ to access.",
+    //         button: "Ok"
+    //     });
+    // }
+    // else if (day < 0) {
+    //     swal({
+    //         icon: "error",
+    //         title: "ERROR",
+    //         text: "Must be 18+ to access.",
+    //         button: "Ok"
+    //     });
+    // }
     else {
         window.location.href = "/home";
         console.log("User is 18")
